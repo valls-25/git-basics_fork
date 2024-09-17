@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  print("Hello");
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Hello!"),
+        ),
+      ),
+    ),
+  );
 }
